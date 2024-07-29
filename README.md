@@ -10,10 +10,12 @@ every React component under the sun. So, what does "awesome" mean? Well:
 Look for a 🚀 for truly amazing projects. And look for quickie maintainer
 commentary and reviews in _(italic parens)_ after some listings of note.
 
+See also: [Awesome React Frameworks](https://github.com/brillout/awesome-react-frameworks).
+
 Maintainers:
 
 - [@petebray](https://github.com/bluepeter), author of [Fluxguard](https://fluxguard.com) &mdash; monitor PROD website changes.
-- [@brillout](https://twitter.com/brillout), author of [vite-plugin-ssr](https://vite-plugin-ssr.com/) (like Next.js / Nuxt but as do-one-thing-do-it-well Vite plugin) and [Telefunc](https://telefunc.com/) (remote functions instead of APIs).
+- [@brillout](https://twitter.com/brillout), author of [Vike](https://vike.dev) &mdash; a fast Vite-based React framework that is flexible, lean, community-driven and dependable.
 
 ### Contributing
 
@@ -34,6 +36,7 @@ Please review our [contributing guidelines](https://github.com/brillout/awesome-
   - [Sticky](#sticky)
   - [Tabs](#tabs)
   - [Loader](#loader)
+  - [Captcha](#captcha)
   - [Carousel](#carousel)
   - [Buttons](#buttons)
   - [Collapse](#collapse)
@@ -50,6 +53,7 @@ Please review our [contributing guidelines](https://github.com/brillout/awesome-
   - [Paginator](#paginator)
   - [Markdown Viewer](#markdown-viewer)
   - [Canvas](#canvas)
+  - [Screenshot](#screenshot)
   - [Miscellaneous](#miscellaneous)
   - [Form Components](#form-components)
     - [Date / Time picker](#date--time-picker)
@@ -164,7 +168,7 @@ Please review our [contributing guidelines](https://github.com/brillout/awesome-
 - [@egjs/react-infinitegrid](https://github.com/naver/egjs-infinitegrid/blob/master/packages/react-infinitegrid) - [npm](https://www.npmjs.com/package/@egjs/react-infinitegrid) - [demo](https://naver.github.io/egjs-infinitegrid/storybook/) - A module used to arrange card elements including content infinitely according to various layout types.
 - [react-lazyload](https://github.com/jasonslyvia/react-lazyload) - Lazyload your Component, Image or anything else where the performance matters.
 - [react-list](https://github.com/orgsync/react-list) - A versatile infinite scroll React component.
-- [@af-utils/virtual](https://github.com/nowaalex/af-utils) - [demo/docs](https://af-utils.vercel.app/virtual) - Render large scrollable lists and grids.
+- [@af-utils/virtual](https://github.com/nowaalex/af-utils) - [demo/docs](https://af-utils.com/virtual) - Render large scrollable lists and grids.
 - [react-window](https://github.com/bvaughn/react-window) - [demo](https://react-window.now.sh/) - React components for efficiently rendering large lists and tabular data
 - [virtua](https://github.com/inokawa/virtua) - [demo](https://inokawa.github.io/virtua/) - A zero-config, fast and small (~3kB) virtual list component for React, Vue and Solid.
 
@@ -227,6 +231,11 @@ _Loaders / spinners / progress bars — Let the user know that something is load
 - [react-spinners-css](https://github.com/JoshK2/react-spinners-css) - Amazing collection of react spinners components.
 - [react-spinners](https://github.com/davidhu2000/react-spinners) - A collection of loading spinner components for react.
 - [react-content-loader](https://github.com/danilowoz/react-content-loader) - SVG-Powered component to easily create placeholder loadings (like Facebook's cards loading).
+
+### Captcha
+
+- [react-simple-captcha](https://github.com/masroorejaz/react-simple-captcha) - [npm](https://www.npmjs.com/package/react-simple-captcha) - [demo](https://www.scriptse.com/blog/add-captcha-in-reactjs-application/react-simple-captcha-demo/) - React Simple Captcha is a very powerful, highly customizable and easy to use captcha for React JS.
+- [procaptcha](https://github.com/prosopo/captcha) - [demo](https://prosopo.io/) - [docs](https://docs.prosopo.io/) - Privacy focused free CAPTCHA
 
 ### Carousel
 
@@ -325,7 +334,6 @@ _Ways to navigate views_
 - [react-geosuggest](https://github.com/ubilabs/react-geosuggest) - A React autosuggest for the Google Maps Places API.
 - [react-leaflet](https://github.com/PaulLeCam/react-leaflet) - React components for Leaflet maps.
 - [react-map-gl](https://github.com/uber/react-map-gl) - A React wrapper for MapboxGL-js and overlay API.
-- [react-mapbox-gl](https://github.com/alex3165/react-mapbox-gl) - A React binding of mapbox-gl-js.
 - [react-svg-map](https://github.com/VictorCazanave/react-svg-map) - [demo](https://victorcazanave.github.io/react-svg-map/) - A set of components to display an interactive SVG map.
 
 ### Time / Date / Age
@@ -386,6 +394,10 @@ _Sketch input using Canvas or SVG_
 - [react-sketch](https://github.com/tbolis/react-sketch) - A Sketch tool for React based applications, backed-up by FabricJS
 - [react-sketch-canvas](https://github.com/vinothpandian/react-sketch-canvas) - [Demo](https://vinoth.info/react-sketch-canvas/?path=/story/*) Freehand vector drawing tool for React using SVG as canvas. Accepts input from Mouse, touch, and graphic tablets
 - [react-heat-map](https://github.com/uiwjs/react-heat-map) - A lightweight calendar heatmap react component built on SVG, customizable version of GitHub's contribution graph.
+
+### Screenshot
+
+- [html2canvas](https://github.com/niklasvh/html2canvas) - Take screenshots of any part of your web page using Javascript.
 
 ### Miscellaneous
 
@@ -649,7 +661,7 @@ _Animate transitions_
 
 ### Parallax
 
-- [react-parallax-component](https://github.com/keske/react-parallax-component) - Easiest way to add scroll parallax effect on the component.
+- [simple-parallax-js](https://github.com/geosigno/simpleParallax.js) - [demo](https://simpleparallax.com) - The easiest way to get a parallax effect with React and JavaScript on images
 - [react-parallax-tilt](https://github.com/mkosir/react-parallax-tilt) - [demo](https://mkosir.github.io/react-parallax-tilt) - Easily apply parallax tilt hover effect on components.
 
 ## UI Frameworks
@@ -685,6 +697,7 @@ _Set of components + responsive layout system_
 - [searchkit](https://github.com/searchkit/searchkit) - React UI components / widgets. The easiest way to build a great search experience with Elasticsearch.
 - [semantic-ui-react](https://github.com/Semantic-Org/Semantic-UI-React) - The official Semantic-UI-React integration.
 - [semi-design](https://github.com/DouyinFE/semi-design) - [demo/docs](https://semi.design/) - A modern, comprehensive, flexible design system.
+- [shadcn/ui](https://github.com/shadcn-ui/ui) - [demo](https://ui.shadcn.com/examples/mail) - [docs](https://ui.shadcn.com/docs) - Beautifully designed components that you can copy and paste into your apps. 
 - [shineout](https://github.com/sheinsight/shineout) - [demo](https://shine.wiki/1.4.x/en/components/GetStart) - Chinese-friendly set of components: form elements, navigation, table, tree, tree select drop-down etc.
 
 #### Material Design
@@ -805,6 +818,7 @@ _Data flow / data management / data stores / components state / data flow_
 - [cerebral](https://github.com/cerebral/cerebral) - A state controller with its own debugger.
 - [effector-react](https://github.com/effector/effector) - React bindings for effector, an effective multi-store state manager.
 - [fireproof](https://github.com/fireproof-storage/fireproof) - [demo](https://fireproof.storage/try-free/) - [docs](https://use-fireproof.com/docs/welcome) Pure JS, zero dependency, CRDT database - runs in the browser and connects to any cloud or backend
+- [RxDB](https://rxdb.info/) - [demo](https://github.com/pubkey/rxdb/tree/master/examples/react) - [docs](https://rxdb.info/quickstart.html) A fast, local first, reactive Database for JavaScript Applications
 - [fluxible](https://github.com/yahoo/fluxible) - A pluggable container for universal flux applications.
 - [kea](https://github.com/mariusandra/kea) - High level architecture for React apps.
 - [react-i13n](https://github.com/yahoo/react-i13n) - A performant, scalable and pluggable approach to instrumenting your React application.
@@ -1048,6 +1062,7 @@ _Internationalization / L10n / localization / translation_
 - [mozaik](https://github.com/plouc/mozaik) - Moza&iuml;k is a tool based on nodejs / react / d3 / stylus to easily craft beautiful dashboards.
 - [react-blessed](https://github.com/Yomguithereal/react-blessed) - A react renderer for blessed.
 - [jsondiffpatch-react](https://github.com/bluepeter/jsondiffpatch-react) - JSON diffing.
+- [iron-session](https://github.com/vvo/iron-session) - Secure, stateless, and cookie-based session library. 
 
 ### Static Website Generator
 
